@@ -1,0 +1,29 @@
+{
+    "5S6FLC0IJB56905BGJXWP2!IFQPJ5S": {
+        "created": "2025-06-11 15:11:50",
+        "expires": "lifetime",
+        "kullanildi": false,
+        "mac": null,
+        "kimlik": null,
+        "hash": null,
+        "Name": "Spoffer"
+    },
+    "5?UOC7P548H5SC-T9BX8HOPL4O7AIF": {
+        "created": "2025-06-11 15:30:13",
+        "expires": "2025-06-12 15:30:13",
+        "kullanildi": false,
+        "mac": null,
+        "kimlik": null,
+        "hash": null,
+        "Name": "Spoffer"
+    },
+    "6408O0TAXFDR?1!P!S1ABF83O-NLAS": {
+        "created": "2025-06-14 16:45:00",
+        "expires": "2025-06-15 16:45:00",
+        "kullanildi": false,
+        "mac": null,
+        "kimlik": null,
+        "hash": null,
+        "Name": "Spoffer"
+    }
+}
